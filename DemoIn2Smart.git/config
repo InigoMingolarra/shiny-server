@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "deploy"]
+	url = ssh:inigo@159.65.82.80
+	fetch = +refs/heads/*:refs/remotes/deploy/*
+[remote "origin"]
+	url = https://github.com/InigoMingolarra/shiny-server.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
